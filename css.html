@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="da">
+
+  <head>
+
+    <meta charset="utf-8">
+    <!--Siden indstilles efter device størrelse, zoom til 1-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Læringsportfolie - Mathias Daa</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Mit stylesheet -->
+    <link href="css/mitstylesheet.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Forside</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Design og visualisering
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="typografi.html">Typografi</a>
+                <a class="dropdown-item" href="farver.html">Farveteori</a>
+                <a class="dropdown-item" href="foto.html">Fotografi</a>
+                <a class="dropdown-item" href="gestalt3.html">Gestaltlove</a>
+                <a class="dropdown-item" href="grafiske.html">Grafiske værktøjer</a>
+
+              </div>
+            </li>
+          
+          
+    <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Interaktionsudvikling
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="html.html">HTML</a>
+                <a class="dropdown-item" href="css.html">CSS</a>
+                <a class="dropdown-item" href="positions.html">Positions</a>
+                <a class="dropdown-item" href="layout.html">Layoutstrategier</a>
+                <a class="dropdown-item" href="version.html">Versionsstyring</a>
+                <a class="dropdown-item" href="Frameworks.html">Frameworks</a>
+              </div>
+            </li>
+              
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Kommunikation og formidling
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="mediesociologi.html">Mediesociologi</a>
+                <a class="dropdown-item" href="kommunikationsmodeller.html">Kommunikationsteorier</a>
+                <a class="dropdown-item" href="idegen.html">Idégenerering</a>
+                <a class="dropdown-item" href="informationsarkitektur.html">Informationsarkitektur</a>
+                <a class="dropdown-item" href="produktionsmodeller.html">Produktionsmodeller</a>
+                <a class="dropdown-item" href="artikel.html">Tekstproduktion - journalistik</a>
+                <a class="dropdown-item" href="visuelkomm.html">Visuel kommunikation</a>
+                <a class="dropdown-item" href="storytelling.html">Storytelling som brandingstrategi</a>
+              </div>
+            </li>
+            
+  <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Virksomheden
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="virksomheden.html">Virksomheden</a>
+                <a class="dropdown-item" href="business.html">Forretningsmodel</a>
+                <a class="dropdown-item" href="value.html">Value proposition canvas</a>
+                <a class="dropdown-item" href="licenser.html">Licenser</a>
+                <a class="dropdown-item" href="projektarbejde.html">Projektarbejde</a>
+                <a class="dropdown-item" href="komigrupper.html">Kommunikation i projektgrupper 
+                </a>
+                <a class="dropdown-item" href="krav.html">Specificering af krav</a>
+                <a class="dropdown-item" href="personaer.html">Brugerprofiler og personaer</a>
+              </div>
+            </li>
+
+<li class="nav-item">
+              <a class="nav-link" href="projekter.html">Projekter</a>
+            </li>
+
+
+
+
+              
+             
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Navigation slutter -->
+
+
+<!-- Opsætning af grids -->
+
+<div class="container">
+  <div class="row top-buffer2">
+    <div class="col-md-2"></div>
+    <div class="col-md-9">
+     <h1 class="introheader2">Grundlæggende CSS</h1>
+      <p class="pforside">CSS er en forkortelse for Cascading Style Sheet og er det som står for det designmæssige på et website. CSS bruges bl.a til at indsætte billeder, bestemme positionering af elementer og ændring af farver og størrelser.
+      </p>
+      </div>
+    </div>
+
+    <hr />
+
+<div class="row top-buffer1">
+    <div class="col-md-7">
+      <h3>Kaskaderegel</h3>
+      <p>
+        Når man laver en regel i CSS, vil alt andet indhold som nu måtte være ovenstående, blive erstattet med den sidst angivne regel, dette kaldes kaskadereglen.
+      </p>
+      </div>
+
+    <div class="col-md-5">
+      <img class="img-fluid rounded" src="img/interaktion/kaskade.gif" alt="">
+    </div>
+</div>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+<hr />
+
+<div class="row top-buffer1">
+    <div class="col-md-7">
+      <h3>3 måder at bruge CSS på</h3>
+
+      <li>Kan indsættes som et < style > </ style > tag i en HTML fils header, en metode som hedder embedded stylesheet. Nu vil alle <b>h1</b> have farven ”green” og alle <b>p</b> farven ”red”
+      </li>  
+    
+    </div>
+  <div class="col-md-5">
+      <img class="img-fluid rounded" src="img/interaktion/css1.gif" alt="">
+  </div>
+</div>
+ 
+<div class="row top-buffer1">
+    <div class="col-md-12">
+<br>
+    
+        <li>Som et inline stylesheet hvor man tilføjer <b>< style ></b> attributten direkte på et specifikt element i bodyen. I eksemplet har den ene <b>< h1 ></b> fået en specifik style som kun påvirker den.
+        </li>
+    </ol>  
+    </div>
+  <div class="col-md-12">
+    <br>
+      <img class="img-fluid rounded" src="img/interaktion/css2.gif" alt="">
+  </div>
+</div>
+
+<div class="row top-buffer1">
+    <div class="col-md-12">
+<br>
+    
+        <li>Eksternt stylesheet. Med et eksternt stylesheet er det muligt at ændre udseendet på ens hjemmeside ved kun at ændre i en fil. 
+        <p>Et eksterns stylesheet kan ligge lokalt, eller befinde sig på en helt fjern server, man skal blot linke til den i sin HTML. 
+        </p>
+        <p>En af fordelene ved at linke til en ekstern CSS fil er at man har væsentlig mindre kode i sit HTML dokument, hvilket gør at den fylder mindre og vil blive hurtigere indlæst hos brugeren. 
+        </p>
+        For at henvise til et eksternt style sheet bruges <b>< link ></b> elementet som sættet ind i headeren. I eksemplet er der ikke angivet nogen som helst styling af <b>< h1 ></b> og <b>< p ></b> direkte i HTML filen. I stedet er der linket til et eksternt stylesheet.
+    </ol>  
+    </div>
+  <div class="col-md-12">
+    <br>
+      <img class="img-fluid rounded" src="img/interaktion/css3.gif" alt="">
+  </div>
+
+  </div>
+  <br>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+<hr />
+
+<div class="row top-buffer1">
+    <div class="col-md-7">
+      <h3>CSS selectors</h3>
+      <p>
+        CSS bruger selectors til at udpege elementer der skal styles, eksempelvis en bestemt id eller klasse.
+      </p>
+      <p>En selector peger på det HTML element som man ønsker at style, til at angive hvad der skal styles, af det som vores selector peger på, bruges disse klammer <b>{ }</b>. 
+      </p>
+    
+      <p> Det som skal styles angiver man via en række deklarationer så som font-size. En deklaration består af en egenskab og en værdi og afsluttes med semikolon. 
+      </p>
+</div>
+    <div class="col-md-5">
+      <img class="img-fluid rounded" src="img/interaktion/css7.gif" alt="">
+    </div>
+</div>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+    
+ <hr />
+
+<div class="row top-buffer1">
+    <div class="col-md-12">
+      <h3>Opbygning af CSS element</h3>
+
+        <p>Først har man en selector, derefter en start klamme, en egenskab, kolon for at adskille, en værdi, en afslutning i form af semikolon, og til sidst en slut klamme.</p>
+    </div>
+    <div class="col-md-12">
+
+    <div class="col-md-12">
+      <img class="img-fluid rounded" src="img/interaktion/css8.png" alt="">
+
+</div>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+<hr />
+    <div class="col-md-12">
+      <br>
+      <h3>Ofte anvendte selectors</h3>
+      <p>Hvis man har en eller flere elementer som skal styles forskelligt, går man ind og bruger id og class selectere.</p>
+      
+      <li><b>Id</b>
+      </li>
+      <br>
+      <p>Hvis man vil give et bestem element et unikt id, skal man i elementets start tag skrive hashtag <b>( # )</b>.
+      Elementet har nu fået en unik id og kan styles separat. 
+      </p>
+
+      <li><b>Class</b>
+      </li>
+      <br>
+      <p>En class selector bruges til hvis man har en gruppe af elementer på samme side, som man ved skal have den samme styling. For at lave en klasse bruges der punktum <b>( . )</b> i stedet for hashtag. Herefter giver man klassen et navn f.eks: .specialklasse. Alle egenskaber denne klasse har, vil nu blive påført på flere elementer på HTML siden som har det samme klasse navn. 
+      </p>
+      <li><b>Psuedo</b>
+      </li>
+      <br>
+      <p>Psuedo klasser bruges når der interageres med et element. Et eksempel er a:hover selectoren, der får et element til at reagere anderledes når en musemarkør ”hover” over den
+      </p>
+    </div>
+  </div>
+     <hr />
+    <div class="col-md-12">
+       
+      <img class="img-fluid rounded" src="img/interaktion/psuedo.gif" alt="">
+    </div>
+ </div>
+
+ <div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+ <hr />
+    <div class="col-md-12">
+      <br>
+      <h3>Strukturelle selectors</h3>
+      <p>Hvis man har en eller flere elementer som skal styles forskelligt, går man ind og bruger id og class selectere.</p>
+      
+      <li><b>Decendant</b>
+      </li>
+      <br>
+      <p>Med denne selector kan man udpege et specifikt element inde i andet element, også selv hvis der er andre elementer imellem. Hvis man ville style a i sin nav, kan det skrives på følgende måde: <b>a nav {font-size 35px;}</b>.
+      Elementet har nu fået en unik id og kan styles separat. 
+      </p>
+
+      <li><b>Child</b>
+      </li>
+      <br>
+      <p>Denne selector bruges når man vil udpege et specifikt sted man vil ændre. Til dette bruges der denne pil <b>”>”</b>
+      </p>
+      <p> <b>Eksempel:</b> </p>
+      <p> <b>div > h1 {font-size: 36px;} </b></p>
+      <p> Her fortælles der at alle h1´er som ligger under en div, vil få fontstørrelsen 36px.</p>
+      
+  </div>
+
+  <div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+
+<hr />
+<div class="row top-buffer1">
+    <div class="col-md-7">
+      <h3>Typer af child selectors</h3>
+      <br>
+      <li><b>Firstchild - </b> den første paragraf <b>< p ></b> i en <b>div</b> eller section
+      </li>
+      <br>
+      <li><b>Lasthild - </b>den sidste paragraf <b>< p ></b> i en div eller section
+      </li>
+      <br>
+      <li><b>Onlychild - </b>den eneste paragraf <b>< p ></b> i en div eller section
+      <br>
+      <br>I eksemplet kan det ses, at man i HTML koden har angivet at p:first-child, har fået tildelt nogle egenskaber, det vil altså sige at det kun er hos den første paragraf <b>< p ></b> hvor egenskaberne gælder, selvom der findes flere paragraffer <b>< p ></b> i samme section. 
+      </li>
+</div>
+
+    <div class="col-md-5">
+      <img class="img-fluid rounded" src="img/interaktion/css4.gif" alt="">
+    </div>
+    </div>
+   <br>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+
+<hr />
+
+<div class="row top-buffer1">
+    <div class="col-md-12">
+      <h3>Skrifttyper</h1>
+      <br>
+    <p>I sin kode er det muligt at benytte sig af flere forskellige skrifttyper med vidt forskellige størrelser og egenskaber på samme tid.
+    <p>Hvis man bruge nogle atypiske fonte, som de færreste browsere understøtter, vil ens tekst ikke blive vist som ønsket, og vil blive omdannet til en standard font, som f.eks Times New Roman. 
+    </p>
+    <p>For at undgå dette er det en god idé at bruge online hostede fonte, som er tilgængelige for alle. Dette kunne være Google fonts eller Adobe Typekit.
+    </p>
+
+    <h3> Kodeeksempler på tekst styling: </h3>
+    <p><b>Font-weight</b></p>
+      <li>Det indre indhold, kunne være tekst eller billede
+      </li>
+      <li>Font weight kan også angives i tal fra 100 – 900, hvor 100 er light, 400 er normal og 700 er bold
+      </li>
+      <br>
+
+    <p><b>Font-family</b></p>
+      <li>Bruges til at bestemme hvilken skrifttype familie der skal anvendes. Her kan man vælge at stille to forskellige font families til rådighed, hvor hvis den ene skrifttype ikke er tilgængelig, vil browseren bruge den næst stående. Til dette bruges komma til at adskille de to fonter
+      </li>
+      <br>
+      <p><b>Font-size</b></p>
+      <li>Kanten på ens element
+      </li>
+      <li>Border er synlig og kan styles, eksempelvis, solid, dotted eller dashed
+      </li>
+      <br>
+</div>
+<br>
+
+    </div>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+
+</div>
+
+<hr/>
+
+
+
+    </div>
+    <br>
+<div class="col-md-12">
+<div class="row">
+          <a href="#top">Til toppen</a>
+</div>
+</div>
+
+<hr/>
+
+
+
+
+
+
+
+
+    <div class="row">
+    <div class="col-md-12">
+        <p>
+          <b>Brugte kilder:</b>
+          </p>
+          <p>
+          <a href="https://www.w3schools.com/cssref/sel_firstchild.asp">www.w3schools.com/cssref/sel_firstchild.asp</a>
+          
+         <p>dag3 - intro til css pdf af Niels Østergaard
+        </p>
+        <p>
+        <a href="https://www.w3schools.com/css/css_positioning.asp">https://www.w3schools.com/css/css_positioning.asp</a>
+      </p>
+
+    </div>
+
+
+</div>
+</div>
+
+<!-- Footer -->
+    <footer class="py-4 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Mathias Daa Rønning 2017 - Kontakt: 20 40 24 42 / mathias@mdaa.dk</p>
+
+      </div>
+  
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>
